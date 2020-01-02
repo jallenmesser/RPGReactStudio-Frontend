@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.boardContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+
+.cellContainerBlank{
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid black;
+  background-image: url(https://opengameart.org/sites/default/files/styles/medium/public/grass00.png);
+  background-size: contain;
+}
+
+.cellContainerWalls{
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid black;
+  background-image: url(https://4.bp.blogspot.com/-2S37QDsnLCk/Vsx7dDQsp-I/AAAAAAAAAaQ/cRBm83Nm_Y0/s1600/new%2Bwall.png);
+  background-size: contain;
+}
+
+.cellContainerNPC{
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid black;
+  background-image: url(https://d2yca1enuxtdrs.cloudfront.net/images/resize/user/240/b52e5b1f6df8872b48eae2eb8997c814.jpg);
+  background-size: contain;
+}
